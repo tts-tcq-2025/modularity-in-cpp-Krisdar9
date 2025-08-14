@@ -28,6 +28,6 @@ int main()
     testPairToNumber(TelCoColorCoder::BLACK, TelCoColorCoder::ORANGE, 12);
     testPairToNumber(TelCoColorCoder::VIOLET, TelCoColorCoder::SLATE, 25);
 
-    TelCoColorCoder::PrintColorCodeManual();  // NEW: Print the full mapping
+    TelCoColorCoder::PrintColorCodeManual();  
     return 0;
 }
